@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tính điểm người chơi</title>
+    <title>Dinh Nhat Phan</title>
     <style>
         * {
             margin: 0;
@@ -321,8 +321,8 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🎮 DUA CỜ BẠC</h1>
-            <p>Theo dõi điểm số dễ dàng</p>
+            <h1>🎮 DUA COBAC</h1>
+            <p></p>
         </div>
 
         <div class="content">
@@ -330,8 +330,8 @@
             <div class="section" id="continueSection" style="display: none;">
                 <div class="section-title">🎯 Game đã lưu</div>
                 <div class="saved-game-info" id="savedGameInfo"></div>
-                <button class="btn btn-success" onclick="continueGame()">Tiếp tục chơi</button>
-                <button class="btn btn-secondary" onclick="startNewGame()">Chơi game mới</button>
+                <button class="btn btn-success" onclick="continueGame()">Tiếp tục lụm</button>
+                <button class="btn btn-secondary" onclick="startNewGame()">Lụm lại game mới</button>
             </div>
 
             <!-- Thiết lập game -->
@@ -339,7 +339,7 @@
                 <div class="section-title">⚙️ Thiết lập</div>
                 
                 <div class="form-group">
-                    <label for="playerCount">Số người chơi (2-8):</label>
+                    <label for="playerCount">Bao nhiêu tay:</label>
                     <input type="number" id="playerCount" min="2" max="8" value="4" onchange="generatePlayerInputs()">
                 </div>
 
@@ -348,7 +348,7 @@
                     <div id="playerInputs"></div>
                 </div>
 
-                <button class="btn btn-success" onclick="startGame()">Bắt đầu chơi</button>
+                <button class="btn btn-success" onclick="startGame()">Bắt đầu lụm</button>
             </div>
 
             <!-- Phần chơi game -->
